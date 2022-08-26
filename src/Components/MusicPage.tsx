@@ -1,7 +1,17 @@
+import MusicBio from './MusicBio'
+import MusicAudio from './MusicAudio'
+import MusicVideo from './MusicVideo'
+
+
 function MusicPage() {
   return (
-    <div>
-      <h1>This is the music page</h1>
+    <div className='music-page'>
+      <div className='music-elements'>
+        <MusicBio />
+        <MusicVideo />
+        <MusicAudio />
+
+      </div>
     </div>
   )
 }
