@@ -1,7 +1,14 @@
+import SoftwareBio from './SoftwareBio'
+import SoftwareVideo from './SoftwareVideo'
+import SoftwareExperience from './SoftwareExperience'
+import AllSkillButtons from './AllSkillButtons'
+
 function SoftwarePage() {
   return (
     <div>
-      <h1>This is the software page</h1>
+      <SoftwareBio />
+      <AllSkillButtons />
+      <SoftwareExperience />
     </div>
   )
 }
