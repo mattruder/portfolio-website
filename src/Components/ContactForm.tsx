@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
 import { init } from 'emailjs-com';
+import '../Styles/ContactForm.css'
 init('user_id');
 
 
@@ -48,7 +49,6 @@ function ContactForm() {
       <input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} />
       <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
       <button onClick={submit}>Send Message</button>
-
     </div>
   )
 }

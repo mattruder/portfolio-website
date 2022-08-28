@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.home-text-container {
+  width: 50vw;
+  background-color: white;
+  border: 2px solid black;
+  margin-bottom: 5vh;
+}
