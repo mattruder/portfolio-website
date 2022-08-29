@@ -1,4 +1,5 @@
 import SkillButton from './SkillButton'
+import '../Styles/AllSkillButtons.css'
 
 function AllSkillButtons() {
 
@@ -14,7 +15,7 @@ function AllSkillButtons() {
 
 
   return (
-    <div>
+    <div className="all-skills">
       {allSkills}
     </div>
   )

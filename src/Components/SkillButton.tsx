@@ -1,3 +1,5 @@
+import '../Styles/SkillButton.css'
+
 type Props = {
   skill: string
 }

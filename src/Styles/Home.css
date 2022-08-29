@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.home-text-container {
+  width: 50vw;
+  background-color: white;
+  border: 5px solid #DA5844;
+  border-radius: 5px;
+  margin-bottom: 5vh;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.home-video {
+  width: 50vw;
+  height: 50vh;
+}

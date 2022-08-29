@@ -1,0 +1,56 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.contact-form-text {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  background-color: white;
+  border: 5px solid #DA5844;
+  border-radius: 5px;
+  margin-bottom: 5vh;
+  font-size: 20px;
+}
+
+#contact-form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+
+}
+
+.name-input, .email-input, .message-input {
+  width: 50vw;
+  padding: 10px;
+  padding-top: 20px;
+  border: 2px solid #DA5844;
+  margin: 10px;
+}
+
+.message-input {
+  height: 25vh;
+}
+
+.contact-btn {
+  padding: 10px;
+  border: 5px solid #92DCE5;
+  background-color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.contact-btn:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
