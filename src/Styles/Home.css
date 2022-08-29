@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 90vh;
+  width: 100%;
 }
 
 .home-text-container {
@@ -14,4 +15,9 @@
   margin-bottom: 5vh;
   padding: 10px;
   font-size: 20px;
+}
+
+.home-video {
+  width: 50vw;
+  height: 50vh;
 }

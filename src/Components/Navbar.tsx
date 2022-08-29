@@ -10,10 +10,12 @@ function NavBar() {
       </div>
       <div className='nav-links'>
 
+
         <Link className='navlink' to="/"><p>Home</p></Link>
         <Link className='navlink' to="/music"><p>Music</p></Link>
         <Link className='navlink' to="/software"><p>Software</p></Link>
         <Link className='navlink' to="/contact"><p>Contact</p></Link>
+
 
       </div>
     </div>

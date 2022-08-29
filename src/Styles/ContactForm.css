@@ -1,11 +1,23 @@
-
-
-.contact-form-text {
-  padding: 10vh;
+.contact {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 10px;
+}
+
+.contact-form-text {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  background-color: white;
+  border: 5px solid #DA5844;
+  border-radius: 5px;
+  margin-bottom: 5vh;
+  font-size: 20px;
 }
 
 #contact-form {
@@ -39,6 +51,6 @@
 }
 
 .contact-btn:hover {
-  padding: 15px;
-  cursor: pointer; 
+  background-color: lightgrey;
+  cursor: pointer;
 }

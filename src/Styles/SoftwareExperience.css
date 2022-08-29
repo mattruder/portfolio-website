@@ -7,7 +7,7 @@
   font-size: 20px;
 }
 
-.experience-link {
+.experience-link-portfolio, .experience-link-github, .experience-link-linkedin {
   color: black;
   border: 5px solid #DA5844;
   padding: 10px;
@@ -16,13 +16,14 @@
   font-weight: bold;
 }
 
+
 a:link { text-decoration: none; }
 
 
 a:visited { text-decoration: none; }
 
 
-a:hover { text-decoration: none; }
+a:hover { text-decoration: none;}
 
 
 a:active { text-decoration: none; }

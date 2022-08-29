@@ -36,3 +36,18 @@ a:active { text-decoration: none; }
   top: 0;
   width: 100%;
 }
+
+@media only screen and (max-width: 650px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    width: 100%;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+}
