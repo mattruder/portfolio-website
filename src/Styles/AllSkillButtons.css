@@ -1,0 +1,9 @@
+.all-skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50vw;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}

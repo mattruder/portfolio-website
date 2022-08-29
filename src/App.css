@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-color: #ebe5d9;
-  height: 100vh;
+  background-color: #f8f8ff;
+  height: 100%;
+  font-family: 'Roboto Mono', monospace;
 
 }

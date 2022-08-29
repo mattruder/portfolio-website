@@ -44,11 +44,16 @@ function ContactForm() {
 
 
   return (
+    <div className='contact'>
+    <div className="contact-form-text">
+      <p>Shoot me a message for all inquiries and I'll get back to you ASAP!</p>
+    </div>
     <div id="contact-form">
-      <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} />
-      <input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} />
-      <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
-      <button onClick={submit}>Send Message</button>
+      <input className='name-input' type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} />
+      <input className='email-input' type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} />
+      <textarea className='message-input' placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
+      <button className='contact-btn' onClick={submit}>Send Message</button>
+    </div>
     </div>
   )
 }

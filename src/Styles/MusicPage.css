@@ -1,6 +1,7 @@
-.music-media {
+.music-media, .music-elements {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin: 10px;
 }

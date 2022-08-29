@@ -3,15 +3,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  width: 90vw;
+  padding: 3px;
 }
 
 .video {
-  width: 30vw;
-  height: 30vh;
+  width: 50vw;
+  height: 50vh;
+  padding: 3px;
 }
 
 
-/* .video > iframe {
+.video > iframe {
   width: 100%;
   height: 100%;
-} */
+}

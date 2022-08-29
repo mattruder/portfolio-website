@@ -9,6 +9,9 @@
 .home-text-container {
   width: 50vw;
   background-color: white;
-  border: 2px solid black;
+  border: 5px solid #DA5844;
+  border-radius: 5px;
   margin-bottom: 5vh;
+  padding: 10px;
+  font-size: 20px;
 }
